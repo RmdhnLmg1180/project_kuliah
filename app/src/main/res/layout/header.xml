@@ -8,9 +8,9 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:background="@drawable/back"
+        android:layout_marginRight="100dp"
         android:layout_marginBottom="20dp"
-        android:layout_marginRight="100dp"/>
+        android:foreground="@drawable/back" />
 
     <View
         android:layout_width="86dp"

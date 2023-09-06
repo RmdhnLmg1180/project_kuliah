@@ -26,45 +26,37 @@
         android:textColor="#252525"
         android:textSize="14sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:fontFamily="@font/nexabold"
-        android:text="Full Name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="14sp"
-        android:layout_marginBottom="5dp" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:fontFamily="@font/nexabold"-->
+<!--        android:text="Full Name"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        android:textSize="14sp"-->
+<!--        android:layout_marginBottom="5dp" />-->
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginBottom="10dp"
+        android:hint="      Full Name"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/shape"
         android:inputType="textPersonName"
-        android:textSize="14sp"
-        />
+        android:textSize="14sp" />
 
     <include layout="@layout/register_form" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/button"
+        android:backgroundTint="@color/blue"
         android:fontFamily="@font/nexabold"
         android:text="@string/sign_up"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="10dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:fontFamily="@font/nexabold"
-        android:text="Hava a account Log In"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="14sp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="10dp"/>
+    <include layout="@layout/masuk"/>
 
     <TextView
         android:layout_width="wrap_content"

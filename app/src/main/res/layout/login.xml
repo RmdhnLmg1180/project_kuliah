@@ -32,7 +32,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/button"
+        android:backgroundTint="@color/blue"
         android:fontFamily="@font/nexabold"
         android:text="@string/log_in"
         android:layout_marginTop="35dp"/>
