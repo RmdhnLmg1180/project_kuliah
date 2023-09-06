@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Kuliah</string>
-    <string name="apayak">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
 </resources>

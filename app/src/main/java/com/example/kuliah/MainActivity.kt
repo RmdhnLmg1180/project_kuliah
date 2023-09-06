@@ -7,7 +7,7 @@ import android.widget.EditText
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.login)
+        setContentView(R.layout.signup)
 
         val emailEditText:EditText = findViewById(R.id.emailEditText)
     }
