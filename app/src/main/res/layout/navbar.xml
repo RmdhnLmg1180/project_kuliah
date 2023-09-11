@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:backgroundTint="#eeeeee">
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:foreground="@drawable/home"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="50dp"/>
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginTop="24dp"
+            android:foreground="@drawable/search"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:foreground="@drawable/calender"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="232dp"/>
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:foreground="@drawable/human1"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="320dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
