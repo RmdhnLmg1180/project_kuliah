@@ -7,6 +7,6 @@ import android.widget.EditText
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.content_course)
+        setContentView(R.layout.home)
     }
 }
