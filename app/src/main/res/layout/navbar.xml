@@ -21,8 +21,9 @@
             android:layout_height="25dp"
             android:layout_marginLeft="141dp"
             android:layout_marginTop="24dp"
-            android:foreground="@drawable/search"
-            android:visibility="visible" />
+            android:foreground="@drawable/search_navbar"
+            android:visibility="visible"
+            android:alpha=".6"/>
 
         <View
             android:layout_width="25dp"

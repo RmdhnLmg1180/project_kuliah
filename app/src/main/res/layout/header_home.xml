@@ -19,7 +19,7 @@
         android:layout_alignParentRight="true"
         android:text="Syahrul Maula Azmi"
         android:paddingTop="15dp"
-        android:paddingRight="130dp"
+        android:paddingRight="120dp"
         android:textSize="16dp"
         android:fontFamily="@font/thicccboi_bold"/>
 
@@ -29,7 +29,7 @@
         android:layout_alignParentRight="true"
         android:text="Lets Learning to smart"
         android:paddingTop="15dp"
-        android:paddingRight="160dp"
+        android:paddingRight="150dp"
         android:layout_marginTop="25dp"
         android:textSize="11dp"
         android:alpha=".5"
@@ -47,7 +47,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/search"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"/>
 
 </RelativeLayout>
