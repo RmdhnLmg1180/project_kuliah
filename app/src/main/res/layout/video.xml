@@ -54,7 +54,7 @@
         android:layout_height="34dp"
         android:foreground="@drawable/shape"
         android:layout_marginTop="23dp"
-        android:layout_marginLeft="285dp">
+        android:layout_marginLeft="265dp">
         
         <View
             android:layout_width="18dp"
