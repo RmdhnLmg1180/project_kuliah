@@ -7,8 +7,8 @@
         android:topLeftRadius="30dp"
         android:topRightRadius="30dp" />
     <solid
-        android:color="#ffffff"/>
+        android:color="@color/blue"/>
     <size
-        android:height="50dp"
-        android:width="50dp"/>
+        android:height="25dp"
+        android:width="25dp"/>
 </shape>
