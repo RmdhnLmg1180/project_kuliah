@@ -19,23 +19,21 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="30dp"
                     android:fontFamily="@font/thicccboi_bold"
-                    android:text="Popular Course"
+                    android:text="Populer Course"
                     android:textSize="16dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="320dp"
-                    android:layout_marginTop="34dp"
-                    android:layout_marginRight="25dp"
                     android:alpha=".6"
                     android:fontFamily="@font/thicccboi_medium"
                     android:gravity="right"
@@ -63,6 +61,31 @@
 
                 </LinearLayout>
             </HorizontalScrollView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/thicccboi_bold"
+                    android:text="Course"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha=".6"
+                    android:fontFamily="@font/thicccboi_medium"
+                    android:gravity="right"
+                    android:text="View All"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
 
             <include layout="@layout/cardcourse_long" />
 
