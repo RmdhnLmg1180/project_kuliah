@@ -16,6 +16,6 @@
         android:layout_width="86dp"
         android:layout_height="33dp"
         android:layout_gravity="center_horizontal"
-        android:foreground="@drawable/logo" />
+        android:foreground="@drawable/logo1" />
 
 </LinearLayout>

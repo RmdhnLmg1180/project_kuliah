@@ -15,7 +15,7 @@
         android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="@drawable/shape"
+        android:backgroundTint="@drawable/shape"
         android:textSize="14sp"
         android:hint="      Email Address"
         android:layout_marginBottom="25dp"/>
@@ -36,7 +36,7 @@
         android:layout_height="45dp"
         android:hint="      Password"
         android:inputType="textPassword"
-        android:background="@drawable/shape"
+        android:backgroundTint="@drawable/shape"
         android:textSize="14sp"
         android:layout_marginBottom="10dp"/>
 

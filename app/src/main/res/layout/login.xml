@@ -13,7 +13,8 @@
         android:fontFamily="@font/nexablack"
         android:text="Welcome Back!"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,12 +31,13 @@
     <include layout="@layout/register_form" />
 
     <Button
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
         android:backgroundTint="@color/blue"
         android:fontFamily="@font/nexabold"
-        android:text="@string/log_in"
-        android:layout_marginTop="35dp"/>
+        android:text="@string/log_in" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,7 +48,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="14sp"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,10 +57,10 @@
         android:text="Or continue with"
         android:fontFamily="@font/nexabold"
         android:textSize="14sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="20dp"/>
 
-    <include layout="@layout/icon_login" />
+    <include layout="@layout/icon_login"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,7 +71,8 @@
         android:padding="15dp"
         android:textSize="14sp"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="60dp"
         android:textAlignment="center"/>
+<!--        />-->
 
 </LinearLayout>
