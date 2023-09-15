@@ -1,3 +1,7 @@
+Kelompok:
+1. Habib Rizky Ramadhan
+2. Syahrul Maula Azmi
+
 Aplikasi Kuliah
 
 Kami membuat aplikasi kuliah. dengan membuat halaman register/sign up dan halaman log in. 
