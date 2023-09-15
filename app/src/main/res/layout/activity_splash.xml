@@ -5,12 +5,19 @@
     android:background="@color/blue"
     android:layout_height="match_parent">
 
-    <View
-        android:layout_width="138dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="320dp"
-        android:layout_gravity="center"
-        android:background="@drawable/logo" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/blue">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_splash" />
+
+    </androidx.cardview.widget.CardView>
+
 
 </LinearLayout>
 

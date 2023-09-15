@@ -1,53 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_home"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="25dp"
     android:layout_marginLeft="25dp"
-    android:layout_marginRight="25dp">
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="25dp"
+    android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/profile_man" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="Syahrul Maula Azmi"
-        android:paddingTop="15dp"
-        android:paddingRight="130dp"
-        android:textSize="16dp"
-        android:fontFamily="@font/thicccboi_bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="Lets Learning to smart"
-        android:paddingTop="15dp"
-        android:paddingRight="160dp"
-        android:layout_marginTop="25dp"
-        android:textSize="11dp"
-        android:alpha=".5"
-        android:fontFamily="@font/thicccboi_semibold"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
 
-    <Button
-        android:layout_width="46dp"
-        android:layout_height="54dp"
-        android:layout_alignParentRight="true"
-        android:backgroundTint="@color/blue" />
+                android:background="@drawable/profile_man" />
 
-    <ImageButton
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/search"
-        android:backgroundTint="@color/white"
-        android:layout_marginTop="14dp"
-        android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/thicccboi_bold"
+                    android:text="Syahrul Maula Azmi"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:alpha=".5"
+                    android:fontFamily="@font/thicccboi_semibold"
+                    android:text="Lets Learning to smart"
+                    android:textSize="11dp" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue"
+                app:cardCornerRadius="1000dp"
+                android:layout_marginLeft="41dp">
+
+                <ImageButton
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/search"
+                    android:backgroundTint="@color/white" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
 
 </RelativeLayout>
