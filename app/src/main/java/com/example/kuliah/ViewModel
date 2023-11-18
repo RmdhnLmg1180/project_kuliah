@@ -1,0 +1,20 @@
+package com.example.kuliah
+
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
+
+
+class LoginViewModel(application: Application) : AndroidViewModel(application) {
+    private val repository: LoginRepository
+    private val getAllData: LiveData<List<LoginTable>>
+
+    init {
+        repository = LoginRepository(application)
+        getAllData = repository.allData
+    }
+
+    fun insert(data: LoginTable?) {
+        repository.insertData(data)
+    }
+}
