@@ -1,0 +1,24 @@
+package com.example.kuliah
+
+import LoginDatabase
+import android.app.Application
+import androidx.lifecycle.LiveData
+
+
+class LoginRepository(application: Application?) {
+    private val loginDao: LoginDao
+    val allData: LiveData<List<LoginTable>>
+
+    init {
+        val db = LoginDatabase.getDatabase(application)
+        loginDao = db.loginDao()
+        allData = loginDao.getDetails()
+    }
+
+    fun insertData(data: LoginTable?) {
+        LoginDatabase.databaseWriteExecutor.execute {
+            loginDao.deleteAllData()
+            loginDao.insertDetails(data)
+        }
+    }
+}
