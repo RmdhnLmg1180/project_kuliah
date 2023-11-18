@@ -1,0 +1,21 @@
+package com.example.kuliah
+
+import androidx.lifecycle.LiveData
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.Query
+
+
+@Dao
+public abstract class LoginDao {
+    @Insert
+    fun insertDetails(data: LoginTable?) {
+    }
+
+    @Query("select * from LoginDetails")
+    abstract fun getDetails(): LiveData<List<LoginTable?>?>?
+
+    @Query("delete from LoginDetails")
+    fun deleteAllData() {
+    }
+}
