@@ -1,0 +1,51 @@
+package com.example.kuliah
+
+import android.view.View
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+
+@Entity(tableName = "LoginDetails")
+public class LoginTable {
+
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "Id")
+    private var id = 0
+
+    @ColumnInfo(name = "Email")
+    private var Email: String? = null
+
+    @ColumnInfo(name = "Password")
+    private var Password: String? = null
+
+    interface Listener {
+        fun onClick(view: View?)
+    }
+
+
+    // Creating Setter and Getter is important
+    fun getId(): Int {
+        return id
+    }
+
+    fun setId(id: Int) {
+        this.id = id
+    }
+
+    fun getEmail(): String? {
+        return Email
+    }
+
+    fun setEmail(email: String?) {
+        Email = email
+    }
+
+    fun getPassword(): String? {
+        return Password
+    }
+
+    fun setPassword(password: String?) {
+        Password = password
+    }
+}
